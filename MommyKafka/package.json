@@ -1,0 +1,36 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "FaizCan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.1.0",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "cron": "^3.1.6",
+    "discord-api-types": "^0.37.63",
+    "discord-player": "^6.6.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "mediaplex": "^0.0.8",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.2",
+    "node_characterai": "^1.2.1",
+    "node-fetch": "^3.3.2",
+    "oauth": "^0.10.0",
+    "openai": "^4.20.1",
+    "path": "^0.12.7",
+    "twit": "^1.1.20",
+    "twitter-api-v2": "^1.15.2",
+    "youtube-ext": "^1.1.16",
+    "ytdl-core": "^4.11.5",
+    "ytsr": "^3.8.4"
+  }
+}
