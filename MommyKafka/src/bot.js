@@ -5,7 +5,6 @@ const cron = require("cron");
 const selamatPagi = require("../src/message/selamatPagi.js");
 const gifpagi = require("../src/message/gifPagi.js");
 const { connect } = require("mongoose");
-const { OpenAI } = require('openai');
 const CharacterAI = require("node_characterai");
 const characterai = new CharacterAI;
 const mongoUrl = process.env.MONGO_URI;
@@ -20,12 +19,6 @@ const client = new Client({
   ],
 });
 client.commands = new Collection();
-
-//OpenAI Fucntion, not used yet
-const openai = new OpenAI({
-  organization: process.env.OPENAIORG,
-  apiKey: process.env.OPENAIKEY,
-});
 
 
 client.commandArray = [];
